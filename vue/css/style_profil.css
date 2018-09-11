@@ -1,0 +1,54 @@
+
+html {
+    height: 100%;
+}
+
+#page{
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	margin-top: 100px;
+}
+
+body{
+	font-weight: normal;
+	background-image: url('img/fond_uni.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.gras{
+	font-size: 1.5em;
+}
+
+.informations{
+	margin-top: 50px;
+	border: solid 1px #0f8bd3;
+	border-radius: 20px/20px;
+	padding: 20px;
+	background-color: rgba(255, 255, 255, 0.4);
+}
+
+.form-creation{
+	margin-top: 50px;
+}
+
+.variable{
+	color: #0f8bd3;
+	font-size: 1.3em;
+	margin-top: 15px;
+}
+
+.info{
+	text-align: center;
+}
+
+.form-change{
+	margin-top: 50px;
+	border: solid 1px #0f8bd3;
+	border-radius: 20px/20px;
+	background-color: rgba(255, 255, 255, 0.4);
+	padding: 25px;
+	overflow: hidden;
+}

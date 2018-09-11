@@ -1,0 +1,31 @@
+.navbar-toggle{
+    background-color: black;
+}
+
+.nav-link {
+  text-align: center;
+  font-size: 1.1em;
+  color: black;
+  box-shadow: 0 0 1px 0px white inset, 0 0 1px 0px white;
+}
+
+.nav-link:hover{
+	color: #f06548;
+}
+
+.bg-light{
+	background: whitesmoke;
+
+}
+
+.navbar-toggler-icon{
+  border-color: black;
+} 
+
+nav{
+	-moz-box-shadow: 1px 3px 10px 0px #656565;
+	-webkit-box-shadow: 1px 3px 10px 0px #656565;
+	-o-box-shadow: 1px 3px 10px 0px #656565;
+	box-shadow: 1px 3px 10px 0px #656565;
+	filter:progid:DXImageTransform.Microsoft.Shadow(color=#656565, Direction=161, Strength=10);
+}

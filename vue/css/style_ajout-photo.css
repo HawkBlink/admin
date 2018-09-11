@@ -1,0 +1,54 @@
+
+html {
+    height: 100%;
+}
+
+#page{
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	position: sticky;
+	margin-top: 90px;
+}
+
+body{
+	background-image: url('img/fond_uni.jpg');
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
+.new_file{
+	border: 1px solid black;
+	border-radius: 5px;
+	background-color: rgba(255, 255, 255, 0.2);
+	padding: 1em;
+}
+
+.new_doss{
+	text-align: center;
+	border: 1px solid black;
+	border-radius: 5px;
+	background-color: rgba(255, 255, 255, 0.2);
+	padding: 1em;
+}
+
+.suppr_file{
+	border: 1px solid black;
+	border-radius: 5px;
+	background-color: rgba(255, 255, 255, 0.2);
+	padding: 1em;
+	margin-left: 1em;
+	margin-right: 1em;
+}
+
+.checking_box{
+	margin-left: 0.25em;
+	margin-right: 0.25em;
+}
+
+.title_ajout{
+	text-align: center;
+}

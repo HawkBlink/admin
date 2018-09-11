@@ -1,0 +1,38 @@
+.navbar-toggle{
+    background-color: black;
+
+}
+
+.nav-link {
+  text-align: center;
+  font-size: 1em;
+  color: black;
+}
+
+.nav-link:hover{
+	color: #f06548;
+}
+
+.bg-light.active{
+	background: whitesmoke;
+   box-shadow: 0 0 1px 0px white inset, 0 0 1px 0px white;
+  -moz-box-shadow: 1px 3px 10px 0px #656565;
+  -webkit-box-shadow: 1px 3px 10px 0px #656565;
+  -o-box-shadow: 1px 3px 10px 0px #656565;
+  box-shadow: 1px 3px 10px 0px #656565;
+  filter:progid:DXImageTransform.Microsoft.Shadow(color=#656565, Direction=161, Strength=10);
+	-webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    
+}
+
+
+.bg-light{
+	background: none;
+	-webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
